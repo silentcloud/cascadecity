@@ -418,7 +418,7 @@ define(function(require, exports, module) {
         this._getArea($("#" + this.get("selectId").city).val());
       },
       _getArea : function(city){
-        if(this.get("showAreaNo") !== true ) {
+      if(this.get("showAreaNo") !== true  || typeof $("#" + this.get("selectId").area) === undefined ) {
           return false ;
         }
         var that = this , areaOptions = "", cityTrim = city.trim() ;

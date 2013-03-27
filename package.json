@@ -1,0 +1,24 @@
+{
+    "name": "cascadecity",
+    "version": "1.0.0",
+    "root": "alipay",
+    "description": "基于seajs的城市三级联动",
+    "homepage": "",
+    "author": "qiang.mou",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/silentcloud/cascadecity.git"
+    },
+    "bugs": {
+        "url": "rjmuqiang@gmail.com"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "$" : "$",
+        "base" : "arale/base/1.0.1/base"
+    },
+    "tests": ["cascadecity"],
+    "output": {
+        "cascadecity.js": "."
+    }
+}

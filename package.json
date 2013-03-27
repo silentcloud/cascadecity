@@ -15,7 +15,8 @@
     "license": "MIT",
     "dependencies": {
         "$" : "$",
-        "base" : "arale/base/1.0.1/base"
+        "base" : "arale/base/1.0.1/base",
+        "select": "arale/select/0.9.1/select"
     },
     "tests": ["cascadecity"],
     "output": {

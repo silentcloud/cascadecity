@@ -1,0 +1,36 @@
+*{margin:0;padding:0}
+ul li{list-style:none;}
+.ui-select-trigger {
+  background:url("./image/arrow.png") no-repeat right 0;
+  display:inline-block;
+  height:30px;
+  border:1px solid #ccc;
+  text-decoration:none;
+  line-height: 30px;
+  padding: 0 29px 0 10px;
+  color:#7c7c7c;
+  cursor:pointer;
+}
+
+.ui-select-trigger:hover {
+  border-color: #a6a6a6;
+  text-decoration:none;
+  color:#7c7c7c;
+}
+.ui-form-item-error .ui-select-trigger {
+  border: 1px solid #FF0000;
+}
+.ui-select-content {
+  border:1px solid #ccc;
+  background-color: #FFFFFF;
+}
+.ui-select-item {
+  line-height: 30px;
+  padding:0 30px 0 10px;
+  cursor: default;
+}
+.ui-select-hover{
+  background:#f2f2f2;
+}
+
+

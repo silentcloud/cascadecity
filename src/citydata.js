@@ -453,4 +453,6 @@ define(function (require, exports, module) {
     "澳门特别行政区": {"澳门半岛": [], "离岛": []},
     "海外": {"海外": []}
   }
+
+  module.exports = citydata;
 });
